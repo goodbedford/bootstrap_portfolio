@@ -1,0 +1,139 @@
+.jumbotron{
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('menu.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+  margin-top: -75px;
+}
+.hero-area {
+  margin-top: 225px;
+  text-align: center;
+}
+.container .hero-area {
+  position:relative;
+}
+.hero-area h1 {
+  font-family: ProximaNova-Semibold;
+  font-size: 70px;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 8px;
+  margin-bottom: 7px;
+}
+.hero-area h2 {
+  font-family: ProximaNova-Light;
+  font-size: 26px;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 1.2px;
+}
+.hero-area h1 span {
+  font-family: ProximaNova-Light;
+  font-size: 70px;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 5px;
+  margin-right: 15px;
+}
+#trigger-overlay{
+  position: absolute;
+  top: 119px;
+  right: 40px;
+  height: 22px;
+}
+.brand-logo{
+  position: absolute;
+  top: 104px;
+  left: 40px;
+  font-family: Pacifico;
+  font-size: 30px;
+}
+.title {
+  font-family: ProximaNova-Semibold;
+  font-size: 26px;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.description {
+  font-family: Open Sans;
+  font-size: 18px;
+  color: #646464;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.location-description {
+  font-family: ProximaNova-LightIt;
+  font-size: 15px;
+  color: black;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 15px;
+  margin-right: 15px;
+  text-align: right;
+}
+.inner-wrapper {
+  padding: 15px;
+}
+.date {
+  font-family: ProximaNova-Semibold;
+  font-size: 17px;
+  color: white;
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 15px;
+  margin-top: 1px;
+}
+.hairline {
+  border-bottom: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.yellow {
+  background: white;
+  padding: 20px !important;
+  position:relative;
+}
+.wrapper {
+  position: relative;
+}
+.vanilla {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 200%;
+  background-position: 50% 50%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  right: 15px;
+  top: 10px;
+  border: 4px solid white;
+}
+.poster p {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+}
+.poster {
+  overflow: hidden;
+  height: 40px;
+  position: relative;
+  background-color: #353537;
+}
+.poster img {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  margin:-10px;
+  padding:1px;
+}
